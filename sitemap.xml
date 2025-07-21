@@ -7677,11 +7677,6 @@
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://urdirectory.com/business-608334</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    <url>
       <loc>https://urdirectory.com/business-604900</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -9823,6 +9818,11 @@
     </url>
     <url>
       <loc>https://urdirectory.com/innovate-csnlv</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://urdirectory.com/indianapolis-coin-buyers-lvpcf</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
