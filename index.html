@@ -477,8 +477,9 @@
         document.getElementById('current-year').textContent = new Date().getFullYear();
         
         // Define the domain and API endpoint
+        // domainName for display (capitalized), domainNameApi for API calls (full domain with TLD)
         const domainName = 'Urdirectory';
-        const apiEndpoint = '/citations/directory-urls/';
+        const domainNameApi = 'urdirectory.com';
         
         // Format domain name for display (capitalize first part of domain)
         function formatDomainName(domain) {
@@ -518,7 +519,7 @@
         // Fetch directory data from API
         async function fetchDirectoryData(page = 1) {
             try {
-                const response = await fetch(`https://api.localrank.so/citations/directory-urls/?domain=${domainName}&page=${page}&page_size=9`);
+                const response = await fetch(`https://api.localrank.so/citations/directory-urls/?domain=${domainNameApi}&page=${page}&page_size=9`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch directory data');
                 }
