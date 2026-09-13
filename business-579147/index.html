@@ -95,6 +95,23 @@
             filter: brightness(0.85);
         }
 
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-link {
+            color: #555;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #FF6F61;
+        }
+
         .main-content {
             flex: 1 0 auto;
             width: 100%;
@@ -200,9 +217,9 @@
         "@type": "LocalBusiness",
         "name": "Lakiasiat Kajaani",
         "image": "",
-        "description": "Lakiasiat Kajaani tarjoaa asiantuntevaa ja asiakaslähtöistä oikeudellista palvelua Kajaanin alueella. Palvelut kattavat monipuolisesti oikeudenalat, kuten perhe- ja perintöoikeuden, kiinteistö- ja asuntokauppa-asiat, sopimusoikeuden, yritysjuridiikan sekä riidanratkaisun. Yhdistämällä vahvan juridisen osaamisen ja Kainuun paikallisten olosuhteiden tuntemuksen Lakiasiat Kajaani palvelee yksityishenkilöitä, yrityksiä ja yhteisöjä luotettavasti, eettisesti ja yksilöllisesti. Tavoitteena on edistää oikeudenmukaisuutta ja turvata asiakkaiden edut tarjoamalla räätälöityjä ja korkeatasoisia oikeudellisia ratkaisuja.",
-        "url": "https://lakimies-kajaani.eu",
-        "telephone": "0402460572",
+        "description": "Lakiasiat Kajaani tarjoaa asiantuntevaa ja asiakaslähtöistä oikeudellista palvelua Kajaanin alueella. Palvelut kattavat monipuolisesti oikeudenalat, kuten perhe\u002D ja perintöoikeuden, kiinteistö\u002D ja asuntokauppa\u002Dasiat, sopimusoikeuden, yritysjuridiikan sekä riidanratkaisun. Yhdistämällä vahvan juridisen osaamisen ja Kainuun paikallisten olosuhteiden tuntemuksen Lakiasiat Kajaani palvelee yksityishenkilöitä, yrityksiä ja yhteisöjä luotettavasti, eettisesti ja yksilöllisesti. Tavoitteena on edistää oikeudenmukaisuutta ja turvata asiakkaiden edut tarjoamalla räätälöityjä ja korkeatasoisia oikeudellisia ratkaisuja.",
+        "url": "https://lakimies\u002Dkajaani.eu",
+        "telephone": "0402551983",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Kauppakatu 30, 87100 Kajaani",
@@ -218,13 +235,21 @@
         }
     }
     </script>
+    
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "K: Mitä lakiasioita yleensä hoidatte Kajaanissa?", "acceptedAnswer": {"@type": "Answer", "text": "V: Lakiasiat Kajaani tarjoaa asiantuntevaa oikeudellista palvelua useissa eri oikeudenaloissa, keskittyen erityisesti Kajaanin alueen tarpeisiin."}}, {"@type": "Question", "name": "K: Miten ajanvaraus tapahtuu Kauppakatu 30:ssä?", "acceptedAnswer": {"@type": "Answer", "text": "V: Ajanvarauksen voi tehdä kätevimmin verkkosivujemme https://lakimies-kajaani.eu kautta tai soittamalla meille numeroon 0402551983."}}, {"@type": "Question", "name": "K: Voinko saada alustavan arvion asian hoitamisesta?", "acceptedAnswer": {"@type": "Answer", "text": "V: Kyllä, ensikontaktissa pyrimme antamaan selkeän kuvan siitä, miten voimme auttaa ja mitä asian hoitaminen Kajaanin toimipisteessämme voisi pitää sisällään."}}, {"@type": "Question", "name": "K: Kuinka luottamuksellista palvelu on?", "acceptedAnswer": {"@type": "Answer", "text": "V: Kaikki asiakassuhteemme ovat ehdottoman luottamuksellisia, ja noudatamme tarkasti salassapitovelvollisuutta kaikissa Kajaanin toimipisteessämme hoidettavissa asioissa."}}, {"@type": "Question", "name": "K: Mitä minun tulee ottaa mukaan ensimmäiselle käynnille Kauppakatu 30:een?", "acceptedAnswer": {"@type": "Answer", "text": "V: Ota mukaan kaikki asiaan liittyvät asiakirjat ja muistiinpanot. Autamme sinua sitten Kajaanissa jäsentämään tilannetta."}}]}
+    </script>
+    
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header-content">
                 <a href="/" class="site-name" id="site-name">Urdirectory</a>
-                <a href="https://localrank.so/citations/" class="get-listed-btn" id="get-listed-btn" rel="nofollow">Get Listed</a>
+                <div class="nav-links">
+                    <a href="/blog" class="nav-link">Blog</a>
+                    <a href="https://localrank.so/citations/" class="get-listed-btn" id="get-listed-btn" rel="nofollow">Get Listed</a>
+                </div>
             </div>
         </div>
     </header>
@@ -269,7 +294,7 @@
                                     -->
                                     <div class="contact-text">
                                         <h3>Phone: </h3>
-                                        <p style="color: #666; font-size: 15px;"><a href="tel:0402460572" rel="nofollow">0402460572</a></p>
+                                        <p style="color: #666; font-size: 15px;"><a href="tel:0402551983" rel="nofollow">0402551983</a></p>
                                     </div>
                                 </div>
                                 
@@ -306,22 +331,26 @@
         <div class="container" style="">
             <p style="font-size:1rem;line-height:1.6;color:#444;">
                 <div>
-<p><b>Lakiasiat Kajaani</b> tarjoaa asiantuntevaa ja asiakaslähtöistä oikeudellista palvelua Kajaanin alueella. Löydät meidät Kauppakatu 30, 87100 Kajaani. Tarjoamme kattavat lakipalvelut yksityishenkilöille ja yrityksille. Ota yhteyttä numeroon 0402460572 tai vieraile verkkosivuillamme: https://lakimies-kajaani.eu.</p>
-</div>
-<div>
-<p><b>FAQ</b></p>
-<div>
-<p><b>Mitä lakipalveluita tarjoatte?</b></p>
-<p>Tarjoamme monipuolisia lakipalveluita.</p>
-</div>
-<div>
-<p><b>Missä Lakiasiat Kajaani sijaitsee?</b></p>
-<p>Toimistomme sijaitsee Kajaanissa, Kauppakatu 30.</p>
-</div>
-<div>
-<p><b>Miten saan teihin yhteyden?</b></p>
-<p>Voit ottaa yhteyttä puhelimitse tai verkkosivujemme kautta.</p>
-</div>
+<p><b>Oikeudellista apua Kajaanin sydämessä</b> – Lakiasiat Kajaani tarjoaa Kajaanin asukkaille henkilökohtaista ja asiantuntevaa oikeudellista neuvontaa aivan Kauppakatu 30:ssä. Ensikertaa lakiasioiden parissa asioiva asiakas voi odottaa lämmintä vastaanottoa ja selkeää opastusta. Ymmärrämme, että oikeudelliset kysymykset voivat tuntua monimutkaisilta, ja siksi keskitymme tekemään prosessista mahdollisimman suoraviivaisen ja ymmärrettävän juuri sinulle täällä Kajaanissa.</p>
+<p><b>Luottamuksellista palvelua yksilöllisesti</b> – Jokainen tapaus on ainutlaatuinen, ja me Lakiasiat Kajaanissa kuuntelemme tarkasti sinun tilannettasi. Olipa kyseessä sitten perheoikeudelliset kysymykset, perintöasiat tai muu oikeudellinen haaste, saat meiltä Kajaanin Kauppakatu 30:ssä räätälöityä apua. Tavoitteenamme on löytää parhaat ratkaisut juuri sinun tarpeisiisi, ilman turhaa monimutkaisuutta.</p>
+<p><b>Ota yhteyttä</b> – Löydät meidät osoitteesta Kauppakatu 30, 87100 Kajaani. Lisätietoa palveluistamme ja ajanvarauksesta saat verkkosivuiltamme https://lakimies-kajaani.eu tai soittamalla numeroon 0402551983. Odotamme innolla, että voimme auttaa sinua oikeudellisissa asioissasi täällä Kajaanissa.</p>
+
+<b>Usein kysytyt kysymykset</b>
+
+<p><b>K: Mitä lakiasioita yleensä hoidatte Kajaanissa?</b></p>
+<p>V: Lakiasiat Kajaani tarjoaa asiantuntevaa oikeudellista palvelua useissa eri oikeudenaloissa, keskittyen erityisesti Kajaanin alueen tarpeisiin.</p>
+
+<p><b>K: Miten ajanvaraus tapahtuu Kauppakatu 30:ssä?</b></p>
+<p>V: Ajanvarauksen voi tehdä kätevimmin verkkosivujemme https://lakimies-kajaani.eu kautta tai soittamalla meille numeroon 0402551983.</p>
+
+<p><b>K: Voinko saada alustavan arvion asian hoitamisesta?</b></p>
+<p>V: Kyllä, ensikontaktissa pyrimme antamaan selkeän kuvan siitä, miten voimme auttaa ja mitä asian hoitaminen Kajaanin toimipisteessämme voisi pitää sisällään.</p>
+
+<p><b>K: Kuinka luottamuksellista palvelu on?</b></p>
+<p>V: Kaikki asiakassuhteemme ovat ehdottoman luottamuksellisia, ja noudatamme tarkasti salassapitovelvollisuutta kaikissa Kajaanin toimipisteessämme hoidettavissa asioissa.</p>
+
+<p><b>K: Mitä minun tulee ottaa mukaan ensimmäiselle käynnille Kauppakatu 30:een?</b></p>
+<p>V: Ota mukaan kaikki asiaan liittyvät asiakirjat ja muistiinpanot. Autamme sinua sitten Kajaanissa jäsentämään tilannetta.</p>
 </div>
             </p>
         </div>
